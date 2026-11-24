@@ -125,7 +125,7 @@ User Task:
 
             with st.status("Working on your task...", expanded=True):
                 response = client.models.generate_content(
-                 model="gemini-3.1-flash-lite",
+                model="gemma-4-26b-a4b-it",
                     contents=instructions
                 )
 
